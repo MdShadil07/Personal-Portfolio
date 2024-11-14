@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="aboutm.css">
+    <script src="https://kit.fontawesome.com/ab56d9cd66.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Assests/logpo.png" class="logo">
+                <ul id="sidemenu">
+                    <li> <a href="#">Home</a></li>
+                    <li> <a href="#">About</a></li>
+                    <li> <a href="#">Services</a></li>
+                    <li> <a href="#">Portfolio</a></li>
+                    <li> <a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONTED DEVELOPER</p>
+                <h1>Hi, I'm <span>Shadil</span><br> from india </h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Assests/black.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p id="pera">I am pursuing B.tech in Computer science from Galgotias university. as of now i am
+                        preparing for full stack web Development. i belong from a very middle class family. i always had
+                        a dream to pursue my dream and fullfilled my parents needs</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>Graphic Designer</span><br>Graphic Designing</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-Current</span><br>Student At Galgotias University</li>
+                            <li id="style"><span>Projects</span><br>Website Blocker , AI Assistant Voice chat</li>
+                            <li><span>B.tech</span><br>In Computer Science</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>10th</span><br>89.%</li>
+                            <li><span>12th</span><br>67%</li>
+                            <li><span>B.tech 2024-2027</span><br>Galgotias University</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------services--------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Crafting Digital Experiences. With a focus on aesthetics and usability, I blend creativity and
+                        functionality to design visually stunning and intuitive websites. Prioritizing responsive design
+                        and accessibility, I ensure seamless experiences across devices for all users. Let's collaborate
+                        to bring your digital vision to life</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p> Specializing in UI/UX design, I merge creativity with usability to deliver exceptional digital
+                        experiences. With a focus on user research and intuitive design principles, I create interfaces
+                        that delight users and drive engagement. Let's collaborate to design an experience that
+                        resonates with your audience and achieves your goals</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>As an app designer, I merge sleek aesthetics with seamless functionality to create engaging
+                        digital experiences. With a user-centric approach, I prioritize intuitive navigation and
+                        responsive design, ensuring optimal performance across platforms. Let's collaborate to design an
+                        app that captivates and delights users at every touchpoint</p>
+                    <a href="#">Learn More</a>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- -------portfolio------ -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Assests/83D5B3CE-7CDF-4A24-BE4B-A36CF08B6B15.jpg">
+                    <div class="layer">
+                        <h3>Website Blocker</h3>
+                        <p>Easily boost productivity and focus with our website blocker tool. Take control of your
+                            online time by effortlessly blocking distracting websites. </p>
+                        <a href="https://drive.google.com/drive/folders/1Ff7AQ3G4lvtQu9Cui4F_17JazuWCcLdl?usp=drive_link"
+                            target="_blank"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assests/work-3.png">
+                    <div class="layer">
+                        <h3>AI Assistant Voice Chat</h3>
+                        <p>Experience the future of interaction with our AI assistant voice chat. Engage in natural
+                            conversations and get instant responses to your queries. From scheduling tasks to answering
+                            questions, our AI is here to assist you seamlessly.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Assests/work-2.png">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>Connect, share, and engage with friends old and new on our innovative social media platform.
+                            With intuitive design and powerful features, stay updated with personalized feeds and
+                            vibrant communities. From photos to thoughts, express yourself freely in a safe and
+                            inclusive environment. </p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> Shadilrock77@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> +919576449306</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/md.erfan.94801116" target="
+                        _blank"><i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/md_shadil7" target="
+                        _blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/md_shadil7/?hl=en" target="
+                        _blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/md-shadil-3a9348173/" target="
+                        _blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <div>
+                        <a href="assest/html_entities.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Shadil. Made by <i class="fas fa-heart"></i> Shadil</p>
+        </div>
+    </div>
+    <script defer>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+
+        }
+
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+
+        }
+
+    </script>
+
+</body>
+
+</html>
