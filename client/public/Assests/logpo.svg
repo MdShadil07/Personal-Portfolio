@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <style>
+    /* Dynamic Theme Coloring */
+    .fill-primary { fill: #0f172a; }
+    @media (prefers-color-scheme: dark) {
+      .fill-primary { fill: #ffffff !important; }
+    }
+    /* Animations */
+    @keyframes pulse-opacity {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .animate-cursor {
+      animation: pulse-opacity 1.2s ease-in-out infinite;
+    }
+  </style>
+  
+  <!-- "Shadil" text in Primary Color (Black/White) -->
+  <text x="0" y="34" font-size="36" font-weight="800" class="fill-primary" font-family="'Inter', system-ui, -apple-system, sans-serif" letter-spacing="-1">
+    Shadil
+  </text>
+  
+  <!-- "CODE FOR CHANGE" tagline with Red Dot -->
+  <text x="2" y="52" font-size="10" font-weight="600" letter-spacing="1.5" class="fill-primary" text-transform="uppercase" font-family="'JetBrains Mono', 'Fira Code', monospace">
+    Code for Change<tspan fill="#ef4444" font-weight="900">.</tspan>
+  </text>
+  
+  <!-- Pulsing Cursor at the end -->
+  <rect x="105" y="44" width="5" height="8" fill="#ef4444" class="animate-cursor" />
+</svg>
